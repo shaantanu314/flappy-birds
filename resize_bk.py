@@ -1,5 +1,5 @@
 from PIL import Image
 
-im = Image.open("assets/sprites/background.png")
-resized_im = im.resize(( 500 , 700 ))
-resized_im.save('assets/sprites/background.png')
+im = Image.open("assets/sprites/message.png")
+resized_im = im.resize(( 400 , 500 ))
+resized_im.save('assets/sprites/message.png')
